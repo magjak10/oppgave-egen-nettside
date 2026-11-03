@@ -1,0 +1,71 @@
+/* Grunnoppsett */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0e0000;
+  color: #222;
+}
+
+/* Toppen av siden */
+header {
+  background-color: #000810;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hovedinnhold */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Prosjektkort med Flexbox */
+.kort-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kort {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 200px;
+  transition: transform 0.3s;
+}
+
+.kort:hover {
+  transform: translateY(-5px);
+}
+
+/* Bunnen av siden */
+footer {
+  text-align: left;
+  padding: 20px;
+  color: #666;
+}

@@ -1,0 +1,17 @@
+/* Setter opp et rutenett med 2 eller 3 kolonner avhengig av skjermstørrelse */
+.bilde-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;          /* Jevnt mellomrom mellom bildene */
+    padding: 20px 0;
+    max-width: 1200px;  /* Hindrer at galleriet blir altfor bredt på store skjermer */
+}
+
+/* Sørger for at alle bildene oppfører seg likt og fyller boksene sine pent */
+.bilde-grid img {
+    width: 100%;
+    height: 300px;      /* Setter en fast høyde så alt flukter perfekt */
+    object-fit: cover;  /* Beskjærer bildene pent slik at de ikke blir strukket eller klemt */
+    border-radius: 8px; /* Valgfritt: Gir bildene litt myke, avrundede hjørner */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Valgfritt: Gir en subtil skygge */
+}
