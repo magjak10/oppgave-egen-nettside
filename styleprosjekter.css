@@ -1,0 +1,92 @@
+/* Grunnoppsett */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0e0000;
+  color: #222;
+  font-size: 20px;       /* Gjør bokstavene større (standard er ofte 16px) */
+  font-weight: bold;     /* Gjør bokstavene fyldigere / fete */
+}
+
+body {
+  /* Legg inn filnavnet på det nye Babylon-bildet ditt her */
+  background-image: url(bilder/ran\ burning\ temple\ html.webp); 
+  
+  /* Gjør at bildet dekker absolutt hele skjermen uansett størrelse */
+  background-size: cover; 
+  
+  /* Sentrerer bildet slik at det viktigste i midten alltid vises */
+  background-position: center center; 
+  
+  /* Sørger for at bildet ikke repeterer seg selv */
+  background-repeat: no-repeat; 
+  
+  /* Låser bakgrunnen fast så teksten glir oppå bildet når du scroller */
+  background-attachment: fixed; 
+  
+  /* En mørk reservefarge i tilfelle bildet bruker et sekund på å laste inn */
+  background-color: #0b0706; 
+}
+header {
+  background-color: #545e80;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hovedinnhold */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+ background-color: rgba(95, 139, 167, 0.703);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Prosjektkort med Flexbox */
+.kort-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kort {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 200px;
+  transition: transform 0.3s;
+}
+
+.kort:hover {
+  transform: translateY(-5px);
+}
+
+/* Bunnen av siden */
+footer {
+  text-align: left;
+  padding: 20px;
+  color: #666;
+}
+

@@ -1,0 +1,14 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #463f3f;
+  color: #000000;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
