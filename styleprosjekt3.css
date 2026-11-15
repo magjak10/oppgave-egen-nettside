@@ -32,3 +32,9 @@ section {
   margin-bottom: 20px;
   border-radius: 8px;
 }
+
+footer {
+  text-align: left;
+  padding: 20px;
+  color: #000000;
+}

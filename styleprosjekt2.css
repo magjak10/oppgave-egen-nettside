@@ -19,3 +19,9 @@
 body {
     background-color: rgb(151, 218, 241);
 }
+
+footer {
+  text-align: left;
+  padding: 20px;
+  color: #000000;
+}
