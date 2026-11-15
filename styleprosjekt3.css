@@ -2,12 +2,32 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #463f3f;
+  background-color: #000000f9;
   color: #000000;
 }
 
+body {
+
+  background-image: url(bilder/stalingrad\ html.webp); 
+  
+  
+  background-size: cover; 
+  
+  
+  background-position: center center; 
+  
+  
+  background-repeat: no-repeat; 
+  
+  
+  background-attachment: fixed; 
+  
+ 
+  background-color: #0b0706; 
+}
+
 section {
-  background-color: white;
+  background-color: rgba(101, 97, 97, 0.774);
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
